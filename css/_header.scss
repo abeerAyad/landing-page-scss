@@ -39,18 +39,18 @@ header {
                 border: 15px solid $white-color;
                 margin-left: 50px;
                 position: relative;
-                width: 40%;
-                height: 500px;
+                width: 45%;
+                height: 580px;
                 
                 .perfume-oil {
-                   width: 450px;
+                   width: 300px;
                    position: absolute;
                    left: -20px;
                    bottom: 30px;
                 }
                 
                 .attar_sheikh {
-                    width: 200px;
+                    width: 100px;
                     position: absolute;
                     right: 20px;
                     bottom: 20px;          
@@ -59,7 +59,7 @@ header {
                     position: absolute;
                     top: -150px;
                     left: 30px;
-                    width: 250px;
+                    width: 150px;
                     background-color: $bg-color-primary;
                 }
             }
