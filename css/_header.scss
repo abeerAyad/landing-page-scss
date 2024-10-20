@@ -1,0 +1,98 @@
+header {
+    background-color: $bg-color-primary;
+    height: 100vh;
+
+    nav {
+       @extend %flex-row;
+       background-color: $bg-color-secondary;
+       height: 80px;
+
+       .logo h2 {
+        color: $primary-color;
+        font-size: $font-size-1;
+        font-weight: 400;
+       }
+
+       ul {
+        @extend %flex;
+        width: 30%;
+        li {
+            a {
+                font-size: $font-size-2;
+                color: $text-color;
+            }
+        }
+       }
+
+       .btn {
+        @extend %btn;
+        background-color: $primary-color;
+       }
+    }
+
+    .hero {
+        .content {
+            display: flex;
+            align-items: center;
+            height: 100vh;
+            .hero-photo {
+                border: 15px solid $white-color;
+                margin-left: 50px;
+                position: relative;
+                width: 40%;
+                height: 500px;
+                
+                .perfume-oil {
+                   width: 450px;
+                   position: absolute;
+                   left: -20px;
+                   bottom: 30px;
+                }
+                
+                .attar_sheikh {
+                    width: 200px;
+                    position: absolute;
+                    right: 20px;
+                    bottom: 20px;          
+                }
+                .attar {
+                    position: absolute;
+                    top: -150px;
+                    left: 30px;
+                    width: 250px;
+                    background-color: $bg-color-primary;
+                }
+            }
+
+            .hero-content {
+                width: 50%;
+                text-align: right;
+                translate: 0 -90px;
+
+                h1 {
+                    font-size: 50px;
+                    font-weight: 400;
+                }
+                p {
+                    font-size: $font-size-2;
+                    margin: 50px 0 70px;
+                  }
+                a {
+                    @extend %btn;
+                    font-weight: 400;
+                    &:first-child {
+                        background-color: $primary-color;
+                    }
+                    &:last-child {
+                        background-color: $bg-color-primary;
+                        margin-right: 30px;
+                        border: 1px solid $text-color;
+                        color: $text-color;
+                    }
+                  }
+                    
+            }
+        }
+    }
+
+}

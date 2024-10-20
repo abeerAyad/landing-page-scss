@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Tajawal", sans-serif;
+    font-weight: 400;
+
+
+}
+
+ul {
+    list-style: none;
+}
+
+ a {
+    text-decoration: none;
+ }
+
+ button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+ }
+
+ %flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+ }
+
+ %flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ %btn {
+    width: fit-content;
+    color: #fff;
+    font-size: 24px;
+    padding: 5px 25px;
+    border-radius: 4px;
+ }
+

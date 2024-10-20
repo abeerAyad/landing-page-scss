@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .hero .content .hero-content a, header nav .btn {
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #fff;
+  font-size: 24px;
+  padding: 5px 25px;
+  border-radius: 4px;
+}
+
+header {
+  background-color: #e2d2ba;
+  height: 100vh;
+}
+header nav {
+  background-color: #E4DDCD;
+  height: 80px;
+}
+header nav .logo h2 {
+  color: #602416;
+  font-size: 40px;
+  font-weight: 400;
+}
+header nav ul {
+  width: 30%;
+}
+header nav ul li a {
+  font-size: 24px;
+  color: #000000;
+}
+header nav .btn {
+  background-color: #602416;
+}
+header .hero .content {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+header .hero .content .hero-photo {
+  border: 15px solid #fff;
+  margin-left: 50px;
+  position: relative;
+  width: 40%;
+  height: 500px;
+}
+header .hero .content .hero-photo .perfume-oil {
+  width: 450px;
+  position: absolute;
+  left: -20px;
+  bottom: 30px;
+}
+header .hero .content .hero-photo .attar_sheikh {
+  width: 200px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+header .hero .content .hero-photo .attar {
+  position: absolute;
+  top: -150px;
+  left: 30px;
+  width: 250px;
+  background-color: #e2d2ba;
+}
+header .hero .content .hero-content {
+  width: 50%;
+  text-align: right;
+  translate: 0 -90px;
+}
+header .hero .content .hero-content h1 {
+  font-size: 50px;
+  font-weight: 400;
+}
+header .hero .content .hero-content p {
+  font-size: 24px;
+  margin: 50px 0 70px;
+}
+header .hero .content .hero-content a {
+  font-weight: 400;
+}
+header .hero .content .hero-content a:first-child {
+  background-color: #602416;
+}
+header .hero .content .hero-content a:last-child {
+  background-color: #e2d2ba;
+  margin-right: 30px;
+  border: 1px solid #000000;
+  color: #000000;
+}/*# sourceMappingURL=style.css.map */
